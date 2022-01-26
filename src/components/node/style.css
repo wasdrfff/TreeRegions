@@ -1,0 +1,23 @@
+.node {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  border-left: 1px solid grey;
+  margin-left: 5px;
+  padding-left: 5px;
+}
+.node__title {
+  display: flex;
+  align-items: center;
+}
+
+.node__childrens {
+  display: none;
+}
+
+.node__arrow {
+  transform: rotate(-90deg);
+}
+.node__arrow.open {
+  transform: rotate(0);
+}
